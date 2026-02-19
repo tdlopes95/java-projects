@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JAVA3_Complete {
+public class Java_activities_2 {
     public static void main(String[] args) {
         int validador=0;
 

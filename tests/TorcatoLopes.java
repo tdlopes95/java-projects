@@ -1,4 +1,3 @@
-package Teste;
 
 import java.util.Scanner;
 
@@ -13,7 +12,7 @@ public class TorcatoLopes {
         final int PRECO_A = 8;
         final int PRECO_B = 12;
         Scanner ler = new Scanner(System.in);
-
+        
 
         System.out.println("Academia de Fitness");
         System.out.println("Digite o número de aulas que pretende registar (1 a 15): ");
@@ -57,5 +56,6 @@ public class TorcatoLopes {
         }else{
             System.out.println("Os dois turnos tiveram o mesmo número de participantes");
         }
+        ler.close();
     }
 }
