@@ -7,6 +7,7 @@ import lombok.*;
 import java.time.LocalDate;
 
 @Entity
+@Table(name = "race_sessions")
 @Getter @Setter @NoArgsConstructor
 public class RaceSession {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)

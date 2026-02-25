@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
+@Table(name = "teams")
 @Getter @Setter @NoArgsConstructor
 public class Team {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
